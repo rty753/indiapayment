@@ -52,7 +52,7 @@ export default function Home() {
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
-              PAYNOW已开通印度和巴基斯坦本土原生支付业务，适用于线上的聚合支付系统，支持D0结算，
+              塔塔印度支付已开通印度和巴基斯坦本土原生支付业务，适用于线上的聚合支付系统，支持D0结算，
               印度支付应用各种不同场景，例如PayTm以及UPI唤醒支付等等
             </p>
             
@@ -483,7 +483,7 @@ export default function Home() {
           </div>
           
           <div className="bg-gray-900 bg-opacity-70 backdrop-blur-lg rounded-2xl p-8 border border-white border-opacity-50">
-            <h3 className="text-3xl font-bold text-white mb-8 text-center drop-shadow-lg">认准官方 TATA PAYNOW</h3>
+            <h3 className="text-3xl font-bold text-white mb-8 text-center drop-shadow-lg">认准官方 塔塔印度支付</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
               <div className="text-center">
                 <Shield className="w-12 h-12 mx-auto mb-3 drop-shadow-lg" />
