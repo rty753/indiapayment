@@ -1,5 +1,27 @@
 import { ArrowLeft, CheckCircle, CreditCard, Smartphone, Globe, Users, Zap, Shield, Clock, TrendingUp } from "lucide-react";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "印度支付产品 - UPI/Paytm/PhonePe原生支付通道 | 塔塔印度支付",
+  description: "塔塔印度支付提供印度UPI、Paytm、PhonePe等20+种原生支付通道，支持95%+支付成功率，D0实时结算。专业的印度本土支付解决方案，助力游戏、社交、电商等行业出海印度市场。",
+  alternates: {
+    canonical: "https://indiapayment.org/products",
+  },
+  openGraph: {
+    title: "印度支付产品 - UPI/Paytm/PhonePe原生支付通道",
+    description: "塔塔印度支付提供印度UPI、Paytm、PhonePe等20+种原生支付通道，支持95%+支付成功率，D0实时结算。专业的印度本土支付解决方案。",
+    url: "https://indiapayment.org/products",
+    siteName: "塔塔印度支付",
+    type: "website",
+    locale: "zh_CN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "印度支付产品 - UPI/Paytm/PhonePe原生支付通道",
+    description: "塔塔印度支付提供印度UPI、Paytm、PhonePe等20+种原生支付通道，支持95%+支付成功率，D0实时结算",
+  },
+};
 
 export default function ProductsPage() {
   return (
