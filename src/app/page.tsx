@@ -1,4 +1,5 @@
 import { ArrowRight, CheckCircle, CreditCard, Globe, Shield, Zap, Users, Star, Clock, Building, MessageCircle, Phone, Award, BarChart3, Target, Smartphone } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
               </div>
             </div>
             <div className="hidden lg:flex items-center space-x-8">
-              <a href="#home" className="text-gray-700 hover:text-blue-600 font-medium transition-colors flex items-center h-12">首页</a>
+              <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors flex items-center h-12">首页</Link>
               <a href="#products" className="text-gray-700 hover:text-blue-600 font-medium transition-colors flex items-center h-12">支付产品</a>
               <a href="#advantages" className="text-gray-700 hover:text-blue-600 font-medium transition-colors flex items-center h-12">产品优势</a>
               <a href="#scenarios" className="text-gray-700 hover:text-blue-600 font-medium transition-colors flex items-center h-12">支付场景</a>
