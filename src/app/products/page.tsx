@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "印度支付产品 - UPI/Paytm/PhonePe原生支付通道",
     description: "塔塔印度支付提供印度UPI、Paytm、PhonePe等20+种原生支付通道，支持95%+支付成功率，D0实时结算。专业的印度本土支付解决方案。",
-    url: "https://indiapayment.org/products/",
+    url: "https://indiapayment.org/products",
     siteName: "塔塔印度支付",
     type: "website",
     locale: "zh_CN",
