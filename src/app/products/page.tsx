@@ -438,7 +438,7 @@ export default function ProductsPage() {
             <div>
               <h3 className="font-semibold mb-4">联系我们</h3>
               <ul className="space-y-2 text-gray-400">
-                <li>📱 Telegram: @yinduzhifuxitong</li>
+                <li>📱 Telegram: @zfxt5</li>
                 <li>🌐 官方网站: indiapayment.org</li>
                 <li>🕐 7x24小时技术支持</li>
                 <li>⚡ D0实时结算</li>
