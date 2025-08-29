@@ -59,7 +59,7 @@ export default function Home() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
               <a 
-                href="https://t.me/yinduzhifuxitong" 
+                href="https://t.me/zfxt5" 
             target="_blank"
             rel="noopener noreferrer"
                 className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl transition-all transform hover:scale-105 flex items-center justify-center gap-2"
@@ -461,7 +461,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-white mb-3 drop-shadow-lg">官方Telegram</h3>
               <p className="text-white mb-6 text-lg drop-shadow-md">7x24小时在线客服，快速响应您的咨询</p>
               <a 
-                href="https://t.me/yinduzhifuxitong" 
+                href="https://t.me/zfxt5" 
           target="_blank"
           rel="noopener noreferrer"
                 className="bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors inline-block shadow-lg"

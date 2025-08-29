@@ -260,7 +260,7 @@ export default function ProductsPage() {
                 </div>
               </div>
               <a 
-                href="https://t.me/yinduzhifuxitong" 
+                href="https://t.me/zfxt5" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full bg-gradient-to-r from-green-500 to-emerald-600 text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all block text-center"
@@ -287,7 +287,7 @@ export default function ProductsPage() {
                 </div>
               </div>
               <a 
-                href="https://t.me/yinduzhifuxitong" 
+                href="https://t.me/zfxt5" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all block text-center"
@@ -314,7 +314,7 @@ export default function ProductsPage() {
                 </div>
               </div>
               <a 
-                href="https://t.me/yinduzhifuxitong" 
+                href="https://t.me/zfxt5" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full bg-gradient-to-r from-orange-500 to-red-600 text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all block text-center"
@@ -379,7 +379,7 @@ export default function ProductsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://t.me/yinduzhifuxitong" 
+              href="https://t.me/zfxt5" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-colors inline-block"

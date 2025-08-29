@@ -140,7 +140,7 @@ npm start
 ## 📞 联系我们
 
 ### 官方渠道
-- **📱 Telegram**: [@yinduzhifuxitong](https://t.me/yinduzhifuxitong)
+- **📱 Telegram**: [@zfxt5](https://t.me/zfxt5)
 - **🌐 官方网站**: [indiapayment.org](https://indiapayment.org)
 - **⏰ 服务时间**: 7x24小时在线客服
 
@@ -187,5 +187,5 @@ Copyright © 2025 塔塔印度支付 (TATA INDIA PAY). 保留所有权利.
 
 **🎯 助力企业轻松拓展印度市场，抓住商业机遇！**
 
-[![立即咨询](https://img.shields.io/badge/立即咨询-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/yinduzhifuxitong)
+[![立即咨询](https://img.shields.io/badge/立即咨询-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/zfxt5)
 [![访问官网](https://img.shields.io/badge/访问官网-indiapayment.org-green?style=for-the-badge&logo=web)](https://indiapayment.org)
