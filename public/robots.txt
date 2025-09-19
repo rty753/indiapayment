@@ -1,12 +1,4 @@
 User-agent: *
 Allow: /
 
-# 主要页面
-Allow: /
-Allow: /products
-
-# 网站地图
 Sitemap: https://indiapayment.org/sitemap.xml
-
-# 优化爬虫行为
-Crawl-delay: 1
