@@ -53,12 +53,12 @@ export default function Navigation({ currentPage = 'home' }: NavigationProps) {
             >
               三方支付系统
             </Link>
-            <a href="/#advantages" className="text-gray-700 hover:text-blue-600 font-medium transition-colors flex items-center h-12">
+            <Link href="/#advantages" className="text-gray-700 hover:text-blue-600 font-medium transition-colors flex items-center h-12">
               产品优势
-            </a>
-            <a href="/#contact" className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-full hover:shadow-lg transition-all flex items-center">
+            </Link>
+            <Link href="/#contact" className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-full hover:shadow-lg transition-all flex items-center">
               联系我们
-            </a>
+            </Link>
           </div>
           <button 
             className="lg:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100"
@@ -100,34 +100,34 @@ export default function Navigation({ currentPage = 'home' }: NavigationProps) {
             >
               三方支付系统
             </Link>
-            <a 
+            <Link 
               href="/#advantages" 
               className="block text-gray-700 hover:text-blue-600 font-medium py-2" 
               onClick={() => setMobileMenuOpen(false)}
             >
               产品优势
-            </a>
-            <a 
+            </Link>
+            <Link 
               href="/#scenarios" 
               className="block text-gray-700 hover:text-blue-600 font-medium py-2" 
               onClick={() => setMobileMenuOpen(false)}
             >
               支付场景
-            </a>
-            <a 
+            </Link>
+            <Link 
               href="/#team" 
               className="block text-gray-700 hover:text-blue-600 font-medium py-2" 
               onClick={() => setMobileMenuOpen(false)}
             >
               支付团队
-            </a>
-            <a 
+            </Link>
+            <Link 
               href="/#contact" 
               className="block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-full text-center font-medium" 
               onClick={() => setMobileMenuOpen(false)}
             >
               联系我们
-            </a>
+            </Link>
           </div>
         </div>
       )}

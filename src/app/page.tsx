@@ -1,5 +1,4 @@
 import { ArrowRight, CheckCircle, CreditCard, Globe, Shield, Zap, Users, Star, Clock, Building, MessageCircle, Phone, Award, BarChart3, Target, Smartphone } from "lucide-react";
-import Link from "next/link";
 import Navigation from "./components/Navigation";
 
 export default function Home() {
