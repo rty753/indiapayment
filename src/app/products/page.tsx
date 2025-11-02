@@ -1,6 +1,7 @@
 import { ArrowLeft, CheckCircle, CreditCard, Smartphone, Globe, Users, Zap, Shield, Clock, TrendingUp } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
+import Navigation from "../components/Navigation";
 
 export const metadata: Metadata = {
   title: "印度支付产品 - UPI/Paytm/PhonePe原生支付通道 | 塔塔印度支付",
@@ -27,35 +28,7 @@ export default function ProductsPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="bg-white shadow-lg fixed w-full top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-20 items-center">
-            <div className="flex items-center">
-              <Link href="/" className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">🏛️</span>
-                </div>
-                <div>
-                  <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                    塔塔印度支付
-                  </h2>
-                  <p className="text-sm text-gray-500">TATA INDIA PAY</p>
-                </div>
-              </Link>
-            </div>
-            <div className="hidden lg:flex items-center space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors flex items-center h-12">首页</Link>
-              <Link href="/products" className="text-blue-600 font-medium flex items-center h-12">支付产品</Link>
-              <Link href="/#advantages" className="text-gray-700 hover:text-blue-600 font-medium transition-colors flex items-center h-12">产品优势</Link>
-              <Link href="/#scenarios" className="text-gray-700 hover:text-blue-600 font-medium transition-colors flex items-center h-12">支付场景</Link>
-              <Link href="/#team" className="text-gray-700 hover:text-blue-600 font-medium transition-colors flex items-center h-12">支付团队</Link>
-              <Link href="/#contact" className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-full hover:shadow-lg transition-all flex items-center">
-                联系我们
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Navigation currentPage="products" />
 
       {/* Hero Section */}
       <section className="pt-32 pb-16 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
