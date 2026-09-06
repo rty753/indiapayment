@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // [railway] standalone server output; also valid on Vercel
+  output: 'standalone',
   /* 性能优化配置 */
   compress: true,
   
