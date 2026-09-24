@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -35,9 +36,6 @@ export const metadata: Metadata = {
     title: "印度支付-全行业原生通道服务商",
     description: "印度支付全行业原生通道服务商，专业提供印度UPI原生接口、卢比支付通道等一站式解决方案",
   },
-  verification: {
-    google: "your-google-verification-code",
-  },
 };
 
 export default function RootLayout({
@@ -51,6 +49,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="9ed98266-d3cb-4ae9-b8ac-08ea0b582c95"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

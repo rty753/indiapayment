@@ -1,4 +1,5 @@
-import { ArrowRight, CheckCircle, CreditCard, Globe, Shield, Zap, Users, Star, Clock, Building, MessageCircle, Phone, Award, BarChart3, Target, Smartphone } from "lucide-react";
+import { ArrowRight, CheckCircle, CreditCard, Globe, Shield, Zap, Users, Star, Clock, Building, MessageCircle, Phone, Award, BarChart3, Target, Smartphone, Wrench } from "lucide-react";
+import Link from "next/link";
 import Navigation from "./components/Navigation";
 
 export default function Home() {
@@ -29,7 +30,7 @@ export default function Home() {
               印度支付应用各种不同场景，例如PayTm以及UPI唤醒支付等等
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <a 
                 href="https://t.me/zfxt5" 
             target="_blank"
@@ -45,7 +46,23 @@ export default function Home() {
                 查看技术文档
           </a>
         </div>
-            
+
+            {/* 印度支付系统搭建 一句话入口 */}
+            <div className="flex justify-center mb-12">
+              <Link
+                href="/#contact"
+                className="group inline-flex flex-col sm:flex-row items-center gap-2 sm:gap-3 bg-white/80 backdrop-blur border border-purple-200 rounded-2xl sm:rounded-full px-5 sm:px-6 py-3 shadow-md hover:shadow-lg hover:border-purple-400 transition-all text-center"
+              >
+                <span className="inline-flex items-center gap-2 text-gray-800 text-base md:text-lg font-medium">
+                  <Wrench className="w-5 h-5 text-purple-600 shrink-0" />
+                  想自己做印度支付？我们搭建整套印度三方支付系统，交付即可运营
+                </span>
+                <span className="inline-flex items-center gap-1 text-purple-600 font-semibold whitespace-nowrap">
+                  TG 咨询 @zfxt5 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                </span>
+              </Link>
+            </div>
+
             {/* 核心数据展示 */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-white rounded-2xl shadow-xl p-8">
               <div className="text-center">
